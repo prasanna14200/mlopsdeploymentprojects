@@ -1,0 +1,11 @@
+venv/
+mlruns/
+logs/
+MLOPS_PROJECT_1.egg-info/
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.csv
+*.log
+.env
