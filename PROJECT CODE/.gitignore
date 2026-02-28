@@ -9,3 +9,5 @@ __pycache__/
 *.csv
 *.log
 .env
+mlruns\0
+logs
