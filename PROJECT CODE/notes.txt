@@ -1,0 +1,9 @@
+pip install -e .
+
+
+mlflow ui
+
+python -m src.
+docker login
+
+docker build -t jenkins-dind .
