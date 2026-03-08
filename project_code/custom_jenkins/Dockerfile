@@ -8,6 +8,7 @@ USER root
 # Install prerequisites and Docker
 RUN apt-get update && \
     apt-get install -y python3 python3-venv python3-pip && \
+    ln -s /usr/bin/python3 /usr/bin/python && \
     apt-get install -y ca-certificates curl gnupg && \
     install -m 0755 -d /etc/apt/keyrings && \
     curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg && \
